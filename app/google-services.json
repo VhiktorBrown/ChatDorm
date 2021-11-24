@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "391845646725",
+    "project_id": "chatdorm-101c3",
+    "storage_bucket": "chatdorm-101c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391845646725:android:87ce3e0aae667f6884f4ec",
+        "android_client_info": {
+          "package_name": "com.chocolatedevelopers.chatdorm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391845646725-9sr8n6hbchrhid3ukqd3dgchcevlutdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chocolatedevelopers.chatdorm",
+            "certificate_hash": "321d3397267144baebf118b09f5d73ef2ccbdfa4"
+          }
+        },
+        {
+          "client_id": "391845646725-mnheq262pkb52j92sn161bdtec2ipg7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBLc4rm6_OdERb73b61MrHqS0n6lYK8e8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391845646725-mnheq262pkb52j92sn161bdtec2ipg7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

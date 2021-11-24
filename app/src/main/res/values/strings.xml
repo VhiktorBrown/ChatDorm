@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ChatDorm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_image">Change Image</string>
+    <string name="settings_status">Hi there, I use Chat Dorm!</string>
+    <string name="change_status">Change Status</string>
+    <string name="create_account">Create Account</string>
+    <string name="username">Username</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="decline_friend_request">Decline Friend Request</string>
+    <string name="send_friend_request">Send Friend Request</string>
+    <string name="display_name">Display Name</string>
+    <string name="current_user_s_status">Current user\'s status</string>
+    <string name="todo">TODO</string>
+    <string name="total_friends">Total Friends</string>
+    <string name="cancel_friend_request">Cancel Friend request</string>
+    <string name="accept_friend_request">Accept Friend Request</string>
+    <string name="friends">Friends</string>
+</resources>

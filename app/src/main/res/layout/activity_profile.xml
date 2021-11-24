@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_black"
+    tools:context=".activities.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="center"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/profile_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image"
+        android:layout_marginTop="5dp"
+        android:text="@string/display_name"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/biryani"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/profile_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_display_name"
+        android:layout_marginTop="5dp"
+        android:text="@string/current_user_s_status"
+        android:textColor="@color/white"
+        android:fontFamily="@font/biryani"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/total_friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/send_friend_request_btn"
+        android:layout_marginBottom="10dp"
+        android:text="@string/total_friends"
+        android:textColor="@color/white"
+        android:fontFamily="@font/biryani"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/send_friend_request_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="10dp"
+        android:layout_marginBottom="80dp"
+        android:text="@string/send_friend_request"
+        android:fontFamily="@font/biryani"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/decline_friend_request_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="10dp"
+        android:text="@string/decline_friend_request"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/biryani"
+        android:textStyle="bold" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

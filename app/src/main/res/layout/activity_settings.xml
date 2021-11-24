@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_700"
+    tools:context=".activities.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_user_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/white"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/settings_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Blazer"
+        android:textColor="@color/white"
+        android:fontFamily="@font/biryani"
+        android:textSize="24sp"
+        android:layout_below="@+id/settings_user_image"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_status"
+        android:textColor="@color/white"
+        android:fontFamily="@font/biryani"
+        android:textSize="20sp"
+        android:layout_below="@+id/settings_user_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/change_image"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/change_image"
+        android:textColor="@color/blue_500"
+        android:fontFamily="@font/biryani"
+        android:backgroundTint="@color/white"
+        android:layout_above="@+id/change_status"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/change_status"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:text="@string/change_status"
+        android:fontFamily="@font/biryani"
+        android:background="@drawable/button_background"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
